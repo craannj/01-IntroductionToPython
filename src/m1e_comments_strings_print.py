@@ -28,3 +28,23 @@ print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+
+
+def main():
+    big()
+    bigger()
+    biggest()
+    big()
+
+def big():
+    print('basketball')
+
+def bigger():
+    print('truck')
+    big()
+
+def biggest():
+    print('house')
+    bigger()
+    big()
+main()
